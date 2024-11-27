@@ -116,7 +116,7 @@ function App() {
             {isLoading ? (
               <div className="loader">
                 <div className="spinner"></div>
-                <span>Validating...</span>
+                <span>Hang on...Apparently, free versions suffer from cold start!</span>
               </div>
             ) : (
               'Validate Expression'
@@ -161,7 +161,7 @@ function App() {
           <span>
             Built by{' '}
             <a
-              href='https://kashyab.vercel.app/'
+              href='https://kashyab.vercel.app/medium?=decron-vercel'
               target="_blank"
               rel="noopener noreferrer"
             >
