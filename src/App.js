@@ -19,7 +19,7 @@ function App() {
         throw new Error('Invalid cron expression format');
       }
 
-      const response = await fetch('http://localhost:8000/api/v1/validate-crontab', {
+      const response = await fetch('https://backend-decrontab.onrender.com/api/v1/validate-crontab', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
